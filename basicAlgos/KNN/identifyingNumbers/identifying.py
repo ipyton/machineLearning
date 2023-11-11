@@ -2,7 +2,7 @@ import os
 
 import numpy as np
 
-from KNN.basic.KNNByHand import *
+from basicAlgos.KNN.basic.KNNByHand import *
 
 def img2vector(fileName):
     returnVect = np.zeros((1,1024))

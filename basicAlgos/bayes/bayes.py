@@ -7,7 +7,7 @@ labels = []
 corpus_test = []
 labels_test = []
 
-f = open('./smss/sms_spam.txt', mode='r', encoding='utf-8')
+f = open('smss/sms_spam.txt', mode='r', encoding='utf-8')
 index = 0
 while True:
     line = f.readline()
